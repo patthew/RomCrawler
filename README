@@ -1,5 +1,5 @@
 To add support for your device, fork the project and add your device to src/com/t3hh4xx0r/DeviceType.java
-Its as simple as DEVICE("rootzwiki developer forum url");
+Its as simple as DEVICE("rootzwiki developer forum url"),
 
 where DEVICE is your device name, pulled from your build.prop in caps.
 
