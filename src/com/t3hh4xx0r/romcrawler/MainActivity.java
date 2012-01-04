@@ -155,4 +155,5 @@ public class MainActivity extends Activity {
 	public void makeToast(String message) {
 		Toast.makeText(this, message, Toast.LENGTH_LONG).show();
 	}
+
 }
