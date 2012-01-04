@@ -20,9 +20,9 @@ public enum DeviceType {
 	   CAPTIVATE("http://rootzwiki.com/forum/69-captivate-developer-forum"),
 	   VIBRANT("http://rootzwiki.com/forum/94-vibrant-developer-forum"),
 	   MECHA("http://rootzwiki.com/forum/12-thunderbolt-developer-forum"),
-	   MAGURO("http://rootzwiki.com/forum/230-gsm-galaxy-nexus-developer-forum");
-	   DROID2("http://rootzwiki.com/forum/15-droid-2r2d2-developer-forum");
-	   DROID2WE("http://rootzwiki.com/forum/76-droid-2-global-developer-forum");
+	   MAGURO("http://rootzwiki.com/forum/230-gsm-galaxy-nexus-developer-forum"),
+	   DROID2("http://rootzwiki.com/forum/15-droid-2r2d2-developer-forum"),
+	   DROID2WE("http://rootzwiki.com/forum/76-droid-2-global-developer-forum"),
 	   SHADOW("http://rootzwiki.com/forum/16-droid-x-developer-forum");	   
 
 
