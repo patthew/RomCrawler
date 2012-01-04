@@ -47,7 +47,7 @@ public class ThreadActivity extends ListActivity  {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+        super.onCreate(icicle); 
 
         getNameThread = new Thread();
         linkArray = new ArrayList<String>();

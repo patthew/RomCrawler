@@ -7,13 +7,13 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Iterator;
 
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.parser.Parser;
 import org.jsoup.select.Elements;
+
+import com.google.ads.*;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -30,12 +30,15 @@ public class MainActivity extends Activity {
     ArrayList<String> authorArray;
     String message;
     String threadTitle = null;
+    
 
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         setContentView(R.layout.main);
+        AdRequest ar = new AdRequest();
+        ar.addTestDevice("4B605421C6EAA120E18B7FA165D2E980");
         
         final ListView lv1 = (ListView) findViewById(R.id.listView);
         threadArray = new ArrayList<String>();
@@ -62,8 +65,7 @@ public class MainActivity extends Activity {
             ArrayList<TitleResults> titleArray = getTitles();
             lv1.setAdapter(new TitleAdapter(this, titleArray)); 
             }
-        Log.d("POC", "AUTHORARRAY SIZE: " + authorArray.size() + " THREADARRAY SIZE: " + threadArray.size());
-    }
+        }
     
     public void getDevice() {
     	Constants.DEVICE = android.os.Build.DEVICE.toUpperCase();
@@ -155,5 +157,4 @@ public class MainActivity extends Activity {
 	public void makeToast(String message) {
 		Toast.makeText(this, message, Toast.LENGTH_LONG).show();
 	}
-
 }
