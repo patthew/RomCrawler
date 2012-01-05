@@ -8,4 +8,6 @@ ro.product.device=toro
 becomes 
 TORO
 
-AndroidManifest.xml and res/layout/main.xml have been withheld due to my developer ID from admob being required in them. I didnt want to have to remember to remove them each time I pushed an update. IF your interested in compiling this yourself, I will happily supplu you with the extra two files.
+AndroidManifest.xml and res/layout/main.xml have been withheld due to my developer ID from admob being required in them.
+I didnt want to have to remember to remove them each time I pushed an update. IF your interested in compiling 
+this yourself, I will happily supplu you with the extra two files.
