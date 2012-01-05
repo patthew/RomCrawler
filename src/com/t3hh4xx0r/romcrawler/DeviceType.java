@@ -24,7 +24,7 @@ public enum DeviceType {
 	   DROID2("http://rootzwiki.com/forum/15-droid-2r2d2-developer-forum"),
 	   DROID2WE("http://rootzwiki.com/forum/76-droid-2-global-developer-forum"),
 	   SHADOW("http://rootzwiki.com/forum/16-droid-x-developer-forum");	   
-
+	   SPH-D710("http://rootzwiki.com/forum/237-sprint-epic-4g-touch-developer-forum");
 
 	    private final String forumUrl;
 
